@@ -22,7 +22,7 @@
                                 <th>{{ $user->name }}</th>
                                 <th>{{ $user->email }}</th>
                                 <th>
-                                    <a href="{{ route('user.orders', ['id' => $user->id]) }}">Xem</a>
+                                    <a href="{{ route('user.orders', ['id' => $user->id]) }}">Chi tiết Orders</a>
                                 </th>
                                 <th>
                                     @foreach($user->roles as $role)
