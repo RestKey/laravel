@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cập nhật thông tin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .menu {
+            margin: 20px 0;
+        }
+        .menu a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: black;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .login-link {
+            display: block;
+            margin: 10px 0;
+            color: blue;
+            text-decoration: none;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html">Home</a> | <a href="login.html">Đăng nhập</a> | <a href="register.html">Đăng ký</a>
+    </div>
+    <div class="container">
+        <h2>Màn hình cập nhật</h2>
+        <form>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Mật khẩu">
+            <input type="password" placeholder="Nhập lại mật khẩu">
+            <input type="email" placeholder="Email">
+            <a href="login.html" class="login-link">Đã có tài khoản</a>
+            <button class="btn">Cập nhật</button>
+        </form>
+    </div>
+    <div class="footer">Lập trình web @01/2024</div>
+</body>
+</html>
